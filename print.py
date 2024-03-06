@@ -1,3 +1,4 @@
+imporft streamlit
 import setuptools
 
 setuptools.setup(
