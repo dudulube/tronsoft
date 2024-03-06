@@ -6,7 +6,7 @@ def abrir_calculadora():
 
     if st.button("Abrir Calculadora"):
         try:
-            subprocess.run(["calc.exe"])  # Comando para abrir la calculadora de Windows
+            subprocess.run(["C:\Windows\System32\calc.exe"])  # Comando para abrir la calculadora de Windows
         except Exception as e:
             st.error(f"Não foi possível abrir a calculadora: {e}")
 
